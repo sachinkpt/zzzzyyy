@@ -87,8 +87,8 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/Filmy_Rog")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Filmy_men")
+S_GROUP = environ.get('S_GROUP',"https://t.me/+tG_HsZA8waBmYjE1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/VisionBackup")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+F805GdOXO1JlOWU9")
 MSG_ALRT = environ.get('MSG_ALRT', '𝗣𝗿𝗲𝘀𝗵𝗮𝗻 𝗠𝗮𝘁 𝗞𝗿 𝗕𝗰')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
@@ -123,6 +123,6 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 #Verify Features
 VERIFY = bool(environ.get('VERIFY', True))
-HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/HOW_TO_DOWNLOADDS/3")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e54dda33bf4ce87a13a4e0c7ec42bf46a83f3838')
+HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/howtodownnload/11")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', '75e830d6e6bb44e5a2d13c1754ba7487f03a3336')
