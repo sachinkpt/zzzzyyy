@@ -124,5 +124,5 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 #Verify Features
 VERIFY = bool(environ.get('VERIFY', True))
 HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/howtodownnload/11")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'bf56e643ddbd84748b7567d820d8c51b44f0bca7')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '645f3cb39f7fd504c3de8e6adb71722fe5c3d8d0')
