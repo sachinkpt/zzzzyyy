@@ -48,18 +48,18 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/14ea49625341fb27b4df6.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/356650716aeb2344fa985.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/3675ce6c5f511cc867ec7.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/e138bbfb9bd2b46a058e8.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://graph.org/file/e138bbfb9bd2b46a058e8.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/954664a46b4684c60c079.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/25c2ee07b3638d2005658.jpg")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://graph.org/file/e138bbfb9bd2b46a058e8.jpg")
 MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/b04dd068fc8e2c2235f8d.mp4")
 
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5149183428').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5512817683').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -87,13 +87,13 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/+tG_HsZA8waBmYjE1")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/VisionBackup")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+F805GdOXO1JlOWU9")
-MSG_ALRT = environ.get('MSG_ALRT', '𝗣𝗿𝗲𝘀𝗵𝗮𝗻 𝗠𝗮𝘁 𝗞𝗿 𝗕𝗰')
+S_GROUP = environ.get('S_GROUP',"https://t.me/+HmLP1gvVcNowN2E1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/KPT_movies")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+Wgsflqv44v8yNThl")
+MSG_ALRT = environ.get('MSG_ALRT', 'KPT Movies')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1001537820228"))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Filmy_Rog')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002082917459"))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KPT_Movies')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -123,6 +123,6 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 #Verify Features
 VERIFY = bool(environ.get('VERIFY', True))
-HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/howtodownnload/11")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '645f3cb39f7fd504c3de8e6adb71722fe5c3d8d0')
+HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/how_to_download_KPT")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vipurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '1a7ec35cb3137a15b9631aefe08d18f891631b3e')
