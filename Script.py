@@ -8,19 +8,14 @@ class script(object):
 
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
-    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ owner: <a href=https://t.me/KennOfficial>❤</a>
-✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/VisionBackup>ғɪʟᴍʏ ᴍᴇɴ</a>
-✯ Dev: <a href=https://t.me/J_shree_ram>亗 𝗧𝗛𝗘 𝗦𝗔𝗡ᕲ𝗠𝗔𝗡</a>
-✯ ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ
-✯ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 𝟹
-✯ ᴅᴀᴛᴀʙᴀsᴇ: ᴍᴏɴɢᴏᴅʙ
-✯ sᴇʀᴠᴇʀ: ᴘʀᴠᴛ
-✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v2.0.1 [ ʙᴇᴛᴀ ]</b>"""
+    ABOUT_TXT = """<b>
+✯ Owner: <a href=https://t.me/kpt_help_bot>KPT Movies</a>
+✯ Main Channel: <a href=https://t.me/KPT_Movies>KPT Movies</a>
+</b>"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-<b>- Dm me to buy. 
-- 𝚂𝙾𝚄𝚁𝙲𝙴 -<a href=https://t.me/KennOfficial>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ</a>"""
+    SOURCE_TXT = """
+<b>
+Source Code:<a href=https://t.me/Kpt_help_bot>KPT Movies</a></b>"""
 
 
 
@@ -98,7 +93,7 @@ these are the extra features of Elsa
 ⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-@VisionBackup"""
+"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 • 𝘜𝘴𝘢𝘨𝘦
@@ -177,7 +172,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @FILMY_MEN"""
+ <i>This feature added by Spider Man"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -283,7 +278,7 @@ Name - {}
 <b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
 🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
 
 📆 ʏᴇᴀʀ : {release_date}
 🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
@@ -296,11 +291,11 @@ Name - {}
 
 
 
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/VisionBackup> ᴄʜᴀɴɴᴇʟ </a>
+════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════
+▫️<a href=https://t.me/KPT_Movies> ᴄʜᴀɴɴᴇʟ </a>
 
-▫️<a href=https://t.me/+tG_HsZA8waBmYjE1>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
+▫️<a href=https://t.me/+HmLP1gvVcNowN2E1>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
+════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
@@ -342,10 +337,9 @@ Merry Christmas ❄️ and Happy New Year 🎇</b>"""
 
     VERIFY_TXT = """<b>ʜᴇʟʟᴏ {},
 
-ʏᴏᴜʀ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,
-ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪғʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ...
-
-इस बाॅट को इस्तेमाल करने के लिए आपको ᴠᴇʀɪғʏ करना होगा नहीं तो आप इसका इस्तेमाल नहीं कर पाएंगे |</b>"""
+ʏᴏᴜʀ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ ✅,
+ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪғʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ.
+</b>"""
 
     VERIFY2_TXT = """
 <b>Vᴇʀɪғʏ Sᴛᴀᴛᴜꜱ
