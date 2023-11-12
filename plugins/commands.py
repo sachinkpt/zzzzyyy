@@ -286,14 +286,7 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(btn)
         )
         return
-        await client.send_cached_media(
-        chat_id=message.from_user.id,
-        file_id=file_id,
-        caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(' ᴊᴏɪɴ ᴛᴏ ᴄʜᴀɴɴᴇʟ ❤️', url=(MAIN_CHANNEL)) ] ] ),
-        protect_content=True if pre == 'filep' else False,
-        )
-
+     
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
            
