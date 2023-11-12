@@ -234,8 +234,8 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton(" ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton(" ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=HOW_TO_VERIFY)
+                    InlineKeyboardButton("♻️ ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=HOW_TO_VERIFY)
                 ]]
                 await message.reply_text(
                     text=script.VERIFY_TXT.format( message.from_user.mention),
@@ -277,8 +277,8 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
-                    InlineKeyboardButton(" ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton(" ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=HOW_TO_VERIFY)
+                    InlineKeyboardButton("♻️ ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=HOW_TO_VERIFY)
                 ]]
         await message.reply_text(
             text=script.VERIFY_TXT.format( message.from_user.mention),
@@ -286,13 +286,15 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(btn)
         )
         return
-       await client.send_cached_media(
+    await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(' ᴊᴏɪɴ ᴛᴏ ᴄʜᴀɴɴᴇʟ ❤️', url=(MAIN_CHANNEL)) ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('❤️‍🔥 ᴊᴏɪɴ ᴛᴏ ᴄʜᴀɴɴᴇʟ ❤️‍🔥', url=(MAIN_CHANNEL)) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
+                    
+
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
            
