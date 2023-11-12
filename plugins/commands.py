@@ -290,8 +290,8 @@ async def start(client, message):
            chat_id=message.from_user.id,
            file_id=file_id,
            caption=f_caption,
-           reply_markup=InlineKeyboardMarkup( [[InlineKeyboardButton('Main Channel',url=(MAIN_CHANNEL))]]),
-           protect_content=True f pre=='filep' else False,
+           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Main Channel',url=(MAIN_CHANNEL))]]),
+           protect_content=True if pre=='filep' else False,
 )
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
