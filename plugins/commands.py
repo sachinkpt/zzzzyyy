@@ -287,12 +287,12 @@ async def start(client, message):
         )
         return
        await client.send_cached_media(
-           chat_id=message.from_user.id,
-           file_id=file_id,
-           caption=f_caption,
-           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Main Channel',url=(MAIN_CHANNEL))]]),
-           protect_content=True if pre=='filep' else False,
-)
+        chat_id=message.from_user.id,
+        file_id=file_id,
+        caption=f_caption,
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(' ᴊᴏɪɴ ᴛᴏ ᴄʜᴀɴɴᴇʟ ❤️', url=(MAIN_CHANNEL)) ] ] ),
+        protect_content=True if pre == 'filep' else False,
+        )
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
            
