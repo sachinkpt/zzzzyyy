@@ -269,8 +269,7 @@ Name - {}
 """
     SUR_TXT = """
 <b>
-𝙷𝙴𝙻𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈
+IAM <a href=https://t.me/{}>{}</a>, I CAN PROVIDE YOU MOVIES OR SERIES, SEARCH WITH CORRECT SPELLING OR SEARCH IN GOOGLE AND PASTE HERE, MOVIES OR SIZES THAT IS NOT AVAILABLE, WILL BE ADDED.
 </b>
 """
 
@@ -314,11 +313,16 @@ Merry Christmas ❄️ and Happy New Year 🎇</b>"""
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <code>: {}</code>"""
 
-    I_CUDNT = """𝑯𝑬𝑳𝑳𝑶 {} 𝑰 𝑪𝑶𝑼𝑳𝑫𝑵'𝑻 𝑭𝑰𝑵𝑫 𝑨𝑵𝒀 𝑴𝑶𝑽𝑰𝑬 𝑰𝑵 𝑻𝑯𝑨𝑻 𝑵𝑨𝑴𝑬 ."""
-
-    I_CUD_NT = """𝑯𝑬𝑳𝑳𝑶 {} 𝑰 𝑪𝑶𝑼𝑳𝑫𝑵'𝑻 𝑭𝑰𝑵𝑫 𝑨𝑵𝒀𝑻𝑯𝑰𝑵𝑮 𝑹𝑬𝑳𝑨𝑻𝑬𝑫 𝑻𝑶 𝑻𝑯𝑨𝑻 . 𝑪𝑯𝑬𝑪𝑲 𝒀𝑶𝑼𝑹 𝑺𝑷𝑬𝑳𝑳𝑰𝑵𝑮."""
+    I_CUDNT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEARS
+    Report sent to admin ✅"""
     
-    CUDNT_FND = """𝑯𝑬𝑳𝑳𝑶 {} 𝑰 𝑪𝑶𝑼𝑳𝑫𝑵'𝑻 𝑭𝑰𝑵𝑫 𝑨𝑵𝒀𝑻𝑯𝑰𝑵𝑮 𝑹𝑬𝑳𝑨𝑻𝑬𝑫 𝑻𝑶 𝑻𝑯𝑨𝑻 𝑫𝑰𝑫 𝒀𝑶𝑼 𝑴𝑬𝑨𝑵 𝑨𝑵𝒀 𝑶𝑵𝑬 𝑶𝑭 𝑻𝑯𝑬𝑺𝑬?"""
+    
+
+    I_CUD_NT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEARS
+    Report sent to admin ✅"""
+    
+    CUDNT_FND = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEARS
+    Report sent to admin ✅"""
     
     REPRT_MSG = """ Reported To Admin ✅"""
 
