@@ -313,16 +313,13 @@ Merry Christmas ❄️ and Happy New Year 🎇</b>"""
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <code>: {}</code>"""
 
-    I_CUDNT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEARS
-    Report sent to admin ✅"""
+    I_CUDNT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEAR | Report sent to admin ✅"""
     
     
 
-    I_CUD_NT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEARS
-    Report sent to admin ✅"""
+    I_CUD_NT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEAR | Report sent to admin ✅"""
     
-    CUDNT_FND = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEARS
-    Report sent to admin ✅"""
+    CUDNT_FND = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEAR | Report sent to admin ✅"""
     
     REPRT_MSG = """ Reported To Admin ✅"""
 
