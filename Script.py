@@ -306,7 +306,7 @@ Merry Christmas ❄️ and Happy New Year 🎇</b>"""
 
     TOP_ALRT_MSG = """ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
-    MVE_NT_FND = """<b>Report Sent To Admin ✅ (24 hours)\n\nThis Theatre Print(PreDVD) bot. Search in other bots:- @KptBots</b> """
+    MVE_NT_FND = """<b>Report Sent To Admin ✅\n\nThis is Theatre Print bot. Search in other bots:- @KptBots</b> """
 
     NORSLTS = """★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 𝗜𝗗 <b>: {}</b>
