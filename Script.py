@@ -300,26 +300,26 @@ Christmas is most truly Christmas when we celebrate it by giving the light of lo
 
 Merry Christmas ❄️ and Happy New Year 🎇</b>"""
 
-    ALRT_TXT = """𝚃𝙷𝙰𝚃 𝙸𝚂 𝙽𝙾𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄 𝚂𝙸𝚁"""
+    ALRT_TXT = """This is Not For You"""
 
     OLD_ALRT_TXT = """𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧 """
 
     TOP_ALRT_MSG = """ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
-    MVE_NT_FND = """<b>Report Sent To Admin ✅ (24 hours)\n\nIt is a Theatre Print(PreDVD) bot. Search in other bots:- @KptBots</b> """
+    MVE_NT_FND = """<b>Report Sent To Admin ✅ (24 hours)\n\nThis Theatre Print(PreDVD) bot. Search in other bots:- @KptBots</b> """
 
     NORSLTS = """★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 𝗜𝗗 <b>: {}</b>
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <code>: {}</code>"""
 
-    I_CUDNT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEAR | Report sent to admin ✅"""
+    I_CUDNT = """Check Spelling & Dont use Symbol and Year. This is Theatre Print Bot. For Hd New Movies, Search in others bots:- @KptBots"""
     
     
 
-    I_CUD_NT = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEAR | Report sent to admin ✅"""
+    I_CUD_NT = """Check Spelling & Dont use Symbol and Year. This is Theatre Print Bot. For Hd New Movies, Search in others bots:- @KptBots"""
     
-    CUDNT_FND = """CHECK YOUR SPELLING WITH GOOGLE OR REMOVE SYMBOLS AND YEAR | Report sent to admin ✅"""
+    CUDNT_FND = """Check Spelling & Dont use Symbol and Year. This is Theatre Print Bot. For Hd New Movies, Search in others bots:- @KptBots✅"""
     
     REPRT_MSG = """ Reported To Admin ✅"""
 
